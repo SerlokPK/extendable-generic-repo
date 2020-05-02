@@ -49,4 +49,3 @@ C:\Users\Serlok\source\repos\extendable_generic_repo\extendable_generic_repo\bin
 C:\Users\Serlok\source\repos\extendable_generic_repo\extendable_generic_repo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Serlok\source\repos\extendable_generic_repo\extendable_generic_repo\obj\Debug\netcoreapp3.1\extendable_generic_repo.csproj.CoreCompileInputs.cache
 C:\Users\Serlok\source\repos\extendable_generic_repo\extendable_generic_repo\obj\Debug\netcoreapp3.1\extendable_generic_repo.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Serlok\source\repos\extendable_generic_repo\extendable_generic_repo\obj\Debug\netcoreapp3.1\extendable_generic_repo.csprojAssemblyReference.cache
