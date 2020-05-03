@@ -17,18 +17,18 @@ namespace extendable_generic_repo.Models.Repositories
             _entities = context;
             _dbset = context.Set<T>();
         }
-        public T Add(T entity)
+        public virtual T Add(T entity)
         {
             return _dbset.Add(entity).Entity;
         }
 
-        public T Delete(T entity)
+        public virtual T Delete(T entity)
         {
             // We can use this to change status to D if we don't want physical delete
             return _dbset.Remove(entity).Entity;
         }
 
-        public void Edit(T entity)
+        public virtual void Edit(T entity)
         {
             _entities.Entry(entity).State = EntityState.Modified;
         }
@@ -38,12 +38,12 @@ namespace extendable_generic_repo.Models.Repositories
             return _dbset.Where(predicate).AsEnumerable();
         }
 
-        public IEnumerable<T> GetAll()
+        public virtual IEnumerable<T> GetAll()
         {
             return _dbset.AsEnumerable<T>();
         }
 
-        public void Save()
+        public virtual void Save()
         {
             _entities.SaveChanges();
         }
